@@ -1,0 +1,102 @@
+.gpt3__whatgpt3{
+
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(328deg, rgba(26, 118, 219, 1) 0%, rgba(4, 44, 84, 1) 33%, rgba(4, 44, 84, 1) 86%, rgba(26, 118, 219, 1) 100%);
+    font-family: var(--ff-manrope);
+}
+
+/* This is the top part of the feature page :- What is gpt3 ? */
+.gpt3__whatgpt3-feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 2rem 0;
+}
+
+.gpt3__feature__container-title{
+    margin-right: 2rem;
+}
+/* Middle of the page heading part  */
+.gpt3__whatgpt3-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 2px;
+    margin: 4rem 2rem 2rem;
+}
+.gpt3__whatgpt3-heading > h4{
+    text-align: end;
+    cursor: pointer;
+}
+.gpt3__whatgpt3-heading > h1{
+    font-size: 34px;
+    line-height: 45px;
+}
+
+
+/* The bottom of the page with the 3 features  */
+.gpt3__whatgpt3-container{
+    display: flex;
+    margin: 2rem 2rem 2rem;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.gpt3__whatgpt3-container-feature{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.gpt3__whatgpt3-container .gpt3__feature__container{
+    margin: 0;
+}
+.gpt3__whatgpt3-container .gpt3__feature__container-text{
+    max-width: 700px;
+}
+
+
+/* Tablet Device------------------------------------------------------------- */
+@media screen and (max-width: 1200px ) {
+
+    .gpt3__whatgpt3-feature{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 2rem 2rem 0;
+    }
+
+    .gpt3__whatgpt3-container{
+        display: flex;
+        margin: 2rem 2rem 2rem;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+
+}
+
+
+/* Mobile Device------------------------------------------------------------- */
+@media screen and (max-width: 700px ) {
+
+    .gpt3__whatgpt3-heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gpt3__whatgpt3-heading > h4{
+        margin-top: 2rem;
+        cursor: pointer;
+        text-align: center;
+    }
+    .gpt3__whatgpt3-heading > h1{
+        font-size: 25px;
+    }
+
+}
+

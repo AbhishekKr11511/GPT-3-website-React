@@ -1,0 +1,28 @@
+
+
+.gpt3__feature__container-title{
+    color: #fff;
+    background: var(--gradient-bar);
+    padding: 1rem 1rem 1rem 1rem ;
+    border-radius: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gpt3__feature-container-text{
+    margin: 1rem 0rem;
+    color: var(--clr-text);
+    max-width: 600px;
+}
+
+/* Mobile Device------------------------------------------------------------- */
+@media screen and (max-width: 700px ) {
+
+    .gpt3__feature__container-title{
+        padding: 0.5rem ;
+        font-size: 16px;
+    }
+    
+    .gpt3__feature-container-text{
+        font-size: 15px;
+    }
+}

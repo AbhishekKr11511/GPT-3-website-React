@@ -1,0 +1,124 @@
+.gpt3__header{
+    display: flex;
+    margin-top: 4rem;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+    font-family: var(--ff-manrope);
+}
+.gpt3__header-illustration img{
+    max-width: 700px;
+}
+
+.gpt3__header-content{
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+.gpt3__header-content-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight:bolder;
+}
+
+.gpt3__header-content-para{
+    color: var(--clr-text);
+    margin: 2rem 0;
+}
+
+
+.gpt3__header-content-input > form{
+    display: flex;
+    width: inherit;
+    align-items: center;
+}
+
+.gpt3__header-content-input > form > input{
+    background: #052D56;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 2rem;
+    padding: 2rem;
+    max-width: inherit;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.gpt3__header-content-input > form > button{
+    background: #FF4820;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    padding: 2rem;
+    font-family: var(--ff-manrope);
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+
+.gpt3__header-content-people{
+
+    display: flex;
+    padding: 1rem 0;
+    color: #fff;
+    justify-content: baseline;
+    align-items: center;
+}
+.gpt3__header-content-people-text{
+    padding-left: 1rem;
+}
+
+
+/* Tablet Device------------------------------------------------------------- */
+@media screen and (max-width: 1200px ) {
+    .gpt3__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gpt3__header-illustration img{
+        max-height: 500px;
+    }
+    .gpt3__header-content-title{
+        font-size: 25px;
+    }
+}
+
+
+/* Mobile Device------------------------------------------------------------- */
+@media screen and (max-width: 700px ) {
+
+    .gpt3__header{
+        scale: 0.6ex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .gpt3__header-illustration img{
+        max-height: 350px;
+    }
+    .gpt3__header-content-title{
+        font-size: 20px;
+    }
+    .gpt3__header-content-people{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    .gpt3__header-content-people-text{
+        padding-top: 1rem;
+    }
+}
+
