@@ -26,8 +26,8 @@ Certainly! GPT-3, or Generative Pre-trained Transformer 3, introduced several si
   </tr>
   <tr>
     <td><img src="/src/assets/thumbs/4.png" alt="Image a"></td>
-    <td><img src="/src/assets/thumbs/5.png" alt="Image a"></td>
-    <td><img src="/src/assets/thumbs/6.png" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/5.jpg" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/6.jpg" alt="Image a"></td>
   </tr>
 </table>
 
@@ -40,11 +40,3 @@ Certainly! GPT-3, or Generative Pre-trained Transformer 3, introduced several si
   </tr>
 </table>
 
-
-### Additional Dependencies Used 🌠☄
-<ul>
-  <li>Axios - For Fetching data</li>
-  <li>Chart.js - For Chart depiction</li>
-  <li>Dayjs - For fetching the Date and Time</li>
-  <li>Millify - For formatting large numbers in readable format</li>
-</ul>
