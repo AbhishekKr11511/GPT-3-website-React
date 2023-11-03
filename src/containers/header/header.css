@@ -122,3 +122,9 @@
     }
 }
 
+@media screen and (max-width: 500px ) {
+
+    .gpt3__header-illustration img{
+        max-width: 300px;
+    }
+}
