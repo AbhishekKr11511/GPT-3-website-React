@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# GPT-3 - AI Blog Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="/src/assets/thumbs/GPT.png" alt="Image 1">
 
-## Available Scripts
+## What is GPT-3 ⚙ 🤔?
 
-In the project directory, you can run:
+Certainly! GPT-3, or Generative Pre-trained Transformer 3, introduced several significant features. It's a language model that excels in natural language understanding and generation. Key features include its massive scale, with 175 billion parameters, allowing it to generate highly coherent and contextually relevant text. GPT-3 exhibits improved performance across a wide range of tasks, from text completion and translation to question answering and more. It has a versatile and adaptable nature, capable of fine-tuning for specific tasks, making it a valuable tool for a variety of natural language processing applications. It's known for its ability to generate human-like text, making it a versatile and powerful language model.
 
-### `npm start`
+## Features
+<ul>
+  <li>Massive Scale: GPT-3 is a large language model with 175 billion parameters, making it one of the largest and most powerful language models at the time of its release.</li>
+  <li>Natural Language Understanding: It demonstrates a strong capability for understanding and generating human-like text in natural language.</li>
+  <li>Contextual Understanding: GPT-3 excels at maintaining context in longer conversations, allowing it to generate coherent and contextually relevant responses.</li>
+  <li>Versatility: It can perform a wide range of natural language processing tasks, including text completion, text generation, translation, question answering, and more.</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- This is where to explore about the features further:  -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Gallery
 
-### `npm test`
+<table>
+  <tr>
+    <td><img src="/src/assets/thumbs/1.png" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/2.png" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/3.png" alt="Image a"></td>
+  </tr>
+  <tr>
+    <td><img src="/src/assets/thumbs/4.png" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/5.png" alt="Image a"></td>
+    <td><img src="/src/assets/thumbs/6.png" alt="Image a"></td>
+  </tr>
+</table>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used 🌌
+<table>
+  <tr>
+    <td><img src="/src/assets/logos/react.png" alt="Image a"></td>
+    <td><img src="/src/assets/logos/figma .png" alt="Image a"></td>
+    <td><img src="/src/assets/logos/creative.png" alt="Image a"></td>
+  </tr>
+</table>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Additional Dependencies Used 🌠☄
+<ul>
+  <li>Axios - For Fetching data</li>
+  <li>Chart.js - For Chart depiction</li>
+  <li>Dayjs - For fetching the Date and Time</li>
+  <li>Millify - For formatting large numbers in readable format</li>
+</ul>
